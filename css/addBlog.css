@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    font-family: 'Poppins', sans-serif, 'arial';
+    font-size: 2.5rem;
+    color: #061f69;
+}
+h4 {
+    font-family: 'Roboto', sans-serif, 'arial';
+    font-size: 1.5rem;
+    color: #071a53;
+}
+
+.img-area{
+    background-image: url("./psy7.jpg");
+    background-size: cover;
+    height:100vh;
+    width:100vw;
+    z-index: -1;
+    top: 0px;
+    filter: blur(5px);
+    position: fixed;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.input_container{
+    padding: 1rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: white;
+    margin-top: -10px;
+
+   
+}
+
+.input_title{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+
+}
+.input_title1{
+    width: 46vw;
+    margin: 1rem 0;
+    position: relative;
+    border-radius: 0.1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: #2d2d2d;
+    color:white;
+}
+.input_content{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+  
+}
+.input_content1{
+    width: 46vw;
+    height: 30vh;
+    margin: 1rem 0;
+    position: relative;
+    border-radius: 0.1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: #2d2d2d;
+    color:white;
+}
+
+.input_file1{
+    background-color: green;
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: #2d2d2d;
+    color: white;
+}
+textarea:focus ,input:focus{ outline: 0; }
+
+.myButton {
+	background-color:#4456f8;
+	border-radius:1.5rem;
+	border:1px solid #4456f8;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:1rem;
+	padding:0.6rem 2rem;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#4456f8;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        padding-top:10px;
+    }
+    h1 {
+        font-family: 'Poppins', sans-serif, 'arial';
+        font-size: 1.5rem;
+        color: #6280dd;
+    }
+    h4 {
+        font-family: 'Roboto', sans-serif, 'arial';
+        font-size: 1rem;
+        color: #6280dd;
+    }
+
+    .input_container{
+        padding: 1rem 1rem 1rem 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        background-color: rgb(255, 255, 255);
+    }
+    .input_content1{
+        width: 67vw;
+    }
+    .input_title1{
+        width: 67vw;
+    }
+  }
